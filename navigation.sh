@@ -19,10 +19,13 @@ nav() {
         cd ~/projects/rust
         ;;
     pp)
-        cd ~projects/python
+        cd ~/projects/python
         ;;
     pw)
-        cd ~projects/web
+        cd ~/projects/web
+        ;;
+    pl)
+        cd ~/projects/lua
         ;;
     bct)
         cd ~/BCT
