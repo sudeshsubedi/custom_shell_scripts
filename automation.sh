@@ -20,12 +20,13 @@ sfml_auto() {
     fi
 
 
-    FILES=""
-    for i in $(find -type f -name "*.cpp"); do
+    FILES="main.cpp"
+    for i in $(find src -type f -name "*.cpp"); do
         FILES+=" "
         FILES+=$i
     done
-    g++ $FILES -o builds/$1 -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lsfml-network    
+    g++ $FILES -I include -o builds/$1 -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lsfml-network
+
 }
 
 

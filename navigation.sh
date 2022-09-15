@@ -27,6 +27,9 @@ nav() {
     pl)
         cd ~/projects/lua
         ;;
+    pg)
+        cd ~/projects/godot
+        ;;
     bct)
         cd ~/BCT
         ;;
